@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogX</class>
+ <widget class="QDialog" name="DialogX">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>130</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLineEdit" name="x_edit">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>30</y>
+     <width>150</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border-style: solid;
+border-width: 3px;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+font: 16pt &quot;Monaco&quot;;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enter_button">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	text-align: center;
+	font: 20pt &quot;Monaco&quot;;
+    background-color: rgb(107, 142, 35);
+	color:  rgb(255, 255, 255);
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	border-width: 4px;
+	border-radius: 10px;
+}
+
+QPushButton:pressed {
+    background-color:  rgb(85, 107, 47);
+}</string>
+   </property>
+   <property name="text">
+    <string>ENTER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+font: 16pt &quot;Monaco&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>x = </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
